@@ -1,4 +1,4 @@
-name: Download JSON
+name: Simple shell workflow
 on:
   workflow_dispatch:
 jobs:
