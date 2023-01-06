@@ -1,0 +1,11 @@
+name: Download JSON
+on:
+  workflow_dispatch:
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run command
+        id: run
+        run: |
+          echo hola | hexdump -C
